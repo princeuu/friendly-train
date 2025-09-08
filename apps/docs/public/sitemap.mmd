@@ -1,0 +1,22 @@
+---
+config:
+  theme: redux
+  look: neo
+  layout: fixed
+---
+flowchart TD
+    LOGIN["Login / Register"] --> STUDASH["Student Dashboard"] & INSDASH["Instructor Dashboard"] & ADMDASH["Admin Dashboard"]
+    STUDASH --> STUCOURSES["Courses"] & STUPROF["Profile"] & STUANN["Announcements"] & STUINBOX["Inbox"] & STUCAL["Calendar"]
+    STUCOURSES --> SCDET["Course Detail"]
+    SCDET --> SASSIGN["Assignments"]
+    SASSIGN --> SSUBMIT["Submit Work"] & SSUBS["My Submissions"]
+    SSUBS --> SGRADES["Grades & Feedback"]
+    INSDASH --> INSCOURSES["Courses"] & INSPROF["Profile"] & INSANN["Announcements"] & INSINBOX["Inbox"] & INSCAL["Calendar"]
+    INSCOURSES --> ICDET["Course Detail"]
+    ICDET --> IASSIGN["Assignments"]
+    IASSIGN --> ICREATE["Create / Edit Assignment"] & ISUBS["Submissions"]
+    ISUBS --> IGRADING["Grading To-Do"] & IANALYTICS["Class Analytics"]
+    ADMDASH --> OVERVIEW["Overview"] & USERS["Users"] & COURSES["Course Overview"] & SETTINGS["System Settings"] & LOGS["Audit Logs"]
+    style STUDASH stroke:#D50000,fill:transparent
+    style INSDASH stroke:#2962FF
+    style ADMDASH stroke:#00C853
