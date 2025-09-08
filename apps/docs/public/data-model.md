@@ -42,7 +42,7 @@ erDiagram
     string id PK
     string assignmentId FK -> ASSIGNMENT.id
     string userId FK -> USER.id
-    enum type "file|link|sandbox"
+    enum type "file|link|audio|Video"
     string status "submitted|graded"
   }
 

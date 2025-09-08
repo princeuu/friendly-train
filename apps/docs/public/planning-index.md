@@ -7,5 +7,8 @@ Each item is stored in `apps/docs/public/`.
 
 - ✅ [Requirements (User Stories)](./requirements.md)  
 - ✅ [Site Map (Frontend Pages)](./sitemap.mmd)  
-- ✅ [Wireframes (Major Screens)](./images/LMS_Student_Dash.png)  
+- ✅ [Student Dashboard Wireframe ](./Student_Dashboard.png)  
+- ✅ [Student Assignment View Wireframe ](./Student_Assignment_View.png)  
+- ✅ [Instructor Dashboard Wireframe ](./Instructor_Dashboard.png)  
+- ✅ [Assignment Creation Wireframes ](./Assignment_Creation.png)  
 - ✅ [Basic Data Model (Major Nouns)](./data-model.md)  
