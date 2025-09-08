@@ -34,5 +34,5 @@
 - **Audit Logs:** *As an Administrator, I want to review system logs so that I can keep the platform secure and reliable.*  
 
 ## Unique Submission
-- **Audio/Video Submission:** *As a Learner, I want to record and submit a short audio or video explanation of my assignment so that I can demonstrate my understanding in a more personal and flexible way.*
-- **Acceptance:** *The submission page provides a "Record Audio/Video" option. Learners can start, stop, and re-record before submitting. The file is saved with the assignment submission and can be played back by the instructor during grading.*
+- **Built-In Audio/Video Recorder:** *As a Learner, I want to directly record and submit a short audio or video explanation of my assignment within the LMS so that I can demonstrate my understanding in a more flexible way.*  
+- **Acceptance:** *The submission page includes a "Record Audio/Video" option with built-in controls. Learners can start, stop, and re-record before submitting. The recording is automatically saved as part of the assignment submission and can be played back by the instructor during grading.*  
